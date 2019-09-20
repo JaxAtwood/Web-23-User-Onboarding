@@ -1,0 +1,44 @@
+
+.App {
+font-family: Georgia;
+font-size: 2rem;
+color:black;
+display: flex;
+flex-direction: column;
+
+}
+
+
+.submissionForm {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #3BB5F1;
+}
+
+
+
+h1 {
+  font-size: 80px;
+  width: 75%;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  text-shadow: 1px 1px 2px black, 0 0 1em #3CC0FF, 0 0 0.2em #44D3FF;
+  color: white;
+  font-family: Georgia;
+}
+
+.submissionForm {
+  border: solid #6DF277 10px;
+  width: 75%;
+  height: 500px;
+  margin: 0 auto;
+}
+
+label {
+  color: red;
+  display: flex;
+  justify-content: center;
+}
